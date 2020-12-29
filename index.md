@@ -6,3 +6,7 @@ This is an extension of the project started for World of Warcraft multiboxing ([
 See the [WowOpenBox installation](https://github.com/WowOpenBox/WoWOpenBox#installation) and instructions and check the "Capture foreground window" checkbox.
 
 You can then use the (configurable) hotkey `Ctrl-Shift-C` to capture whichever window you want.
+
+<p align="center">
+<img src="https://wowopenbox.org/sshot2_0.png" alt="WOB / OMB Screenshot">
+</p>
