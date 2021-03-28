@@ -17,15 +17,13 @@ Use the Game menu to select your Game and/or check the Capture using foreground 
 You can then use the (configurable) hotkey `Ctrl-Shift-C` to capture whichever window you want.
 After which your game name should be recorded in the Game menu and you can stick to normal Auto Capture (Options Menu).
 
-<p align="center">
-<img src="https://wowopenbox.org/sshot2_0.png" alt="WOB / OMB Screenshot">
-</p>
-
 OpenMultiboxing is known to work with:
+
 - Blizzard Games (World of Warcraft)
 - EVE online
 - Path of Exile
-- Star Wars&#2122;: The Old Republic&#2122;
+- Star Wars&trade;: The Old Republic&trade;
 - Browser Games
-- More games... try and report your experience so we can add to this list
 - And pretty much any Windows 10 application...
+
+And more... try and report your experience so we can add to this list!
