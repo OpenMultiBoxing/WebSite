@@ -2,7 +2,7 @@
 
 This is an extension of the project started for World of Warcraft multiboxing ([WowOpenBox](https://WowOpenBox.org/) but that applies to any kind of Windows game or app, including browser games (but still without input broadcasting/not breaking any rules).
 
-See the [WowOpenBox installation](https://github.com/WowOpenBox/WoWOpenBox#installation) and instructions and check the "Capture foreground window" checkbox.
+See the [installation](https://github.com/OpenMultiBoxing/OpenMultiBoxing#installation) and instructions and check the "Capture foreground window" checkbox.
 
 Use the Game menu to select your Game and/or check the Capture using foreground window:
 
@@ -19,7 +19,7 @@ After which your game name should be recorded in the Game menu and you can stick
 
 OpenMultiboxing is known to work with:
 
-- Blizzard Games (World of Warcraft)
+- Blizzard Games (World of Warcraft, ...)
 - EVE online
 - Path of Exile
 - Star Wars&trade;: The Old Republic&trade;
