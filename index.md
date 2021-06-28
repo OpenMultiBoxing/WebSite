@@ -33,3 +33,5 @@ This version, unlike the WowOpenBox one which doesn't have any broadcasting capa
 <p align="center">
 <img src="sshot5_2.png" alt="OMB 5.2 screenshot">
 </p>
+
+Currently it can **broadcast** any text/string (like your login password) and left mouse clicks.
