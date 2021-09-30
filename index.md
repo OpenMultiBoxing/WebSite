@@ -23,10 +23,13 @@ OpenMultiboxing is known to work with:
 - EVE online
 - Path of Exile
 - Star Wars&trade;: The Old Republic&trade;
+- Mir4
 - Browser Games
 - And pretty much any Windows 10 application...
 
 And more... try and report your experience so we can add to this list!
+
+Questions, suggestions, come on our <a href="https://discord.gg/SMGvEeb"><img src="discord.svg" alt="discord" align="center" height="24pt"></a>
 
 This version, unlike the WowOpenBox one which doesn't have any broadcasting capability, does
 
