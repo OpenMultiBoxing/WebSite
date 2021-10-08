@@ -1,6 +1,6 @@
 # OpenMultiBoxing (Open Source, safe, Multiboxing)
 
-This is an extension of the project started for World of Warcraft multiboxing ([WowOpenBox](https://WowOpenBox.org/) but that applies to any kind of Windows game or app, including browser games (but still without input broadcasting/not breaking any rules).
+This is an extension of the project started for World of Warcraft multiboxing ([WowOpenBox](https://WowOpenBox.org/) but that applies to any kind of Windows game or app, including browser games.
 
 See the [installation](https://github.com/OpenMultiBoxing/OpenMultiBoxing#installation) and instructions and check the Game menu and "Capture foreground window" option.
 
