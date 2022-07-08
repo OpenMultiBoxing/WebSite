@@ -18,7 +18,7 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
     1. Manually select the position you want it to be at(*)
 
-    1. Decide if that window should stay on top of others. you can use a hotkey (default `Ctrl-Shit-T`) to toggle that setting on the fly.(*)
+    1. Decide if that window should stay on top of others. you can use a hotkey (default `Ctrl-Shift-T`) to toggle that setting on the fly.(*)
 
 1. Use the Bnet launcher to start your wow windows so you don't need to type your password, OMB will make them borderless automatically for you, but check in game resolution options to avoid pixelization (100% Render Scale, Correct window size).
 
