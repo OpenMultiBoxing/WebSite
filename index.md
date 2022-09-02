@@ -25,7 +25,7 @@ OpenMultiboxing is known to work with:
 - Star Wars&trade;: The Old Republic&trade;
 - Mir4
 - Browser Games
-- And pretty much any Windows 10 application...
+- And pretty much any Windows 10 or 11 application...
 
 And more... try and report your experience so we can add to this list!
 
