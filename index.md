@@ -37,4 +37,7 @@ This version, unlike the WowOpenBox one which doesn't have any broadcasting capa
 <img src="sshot5_2.png" alt="OMB 5.2 screenshot">
 </p>
 
-Currently it can **broadcast** any text/string (like your login password) and left mouse clicks.
+Since version 7, OMB can **broadcast** simple keys, any text/string (like your login password) and left or right mouse clicks.
+
+(The screenshot and help still refer in places to `Round Robin`, which is still available for WowOpenBox but is recently replaced by `Broadcasting` in OpenMultiBoxing)
+
