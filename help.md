@@ -20,7 +20,7 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
     1. Decide if that window should stay on top of others. you can use a hotkey (default `Ctrl-Shift-T`) to toggle that setting on the fly.(*)
 
-1. Use the Bnet launcher to start your wow windows so you don't need to type your password, OMB will make them borderless automatically for you, but check in game resolution options to avoid pixelization (100% Render Scale, Correct window size).
+1. Use the Bnet launcher to start your wow windows so you don't need to type your password, OMB will make them borderless automatically for you, but check in game resolution options to avoid pixelization (100% Render Scale, Correct window size). See also the `.bat` files included in the OMB zip file for a way to start multiple games windows at once (but you'll need to enter credentials individually or through the Secure copy paste broadcasting dialog).
 
 1. OMB since version 4.1 will automatically capture and place the windows in their respective position for you (you can turn that option off in the Option menu). Otherwise, press the "Capture" button or use its hotkey (default `Ctrl-Shift-C`). If you want to manage other games than World of Warcraft, see the ['Other Games' section below](#other-games)
 
@@ -30,7 +30,7 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
 1. You can toggle the overlay on/off at any time using the default hotkey `Ctrl-Shift-O` or the checkbox on the main window.
 
-1. If you used the optional Round Robin enabler feature, by starting the `OpenMultiBoxing_RR` exe instead of the base one, you will see the Round Robin section in the UI and can use `Ctrl-Shift-R` as the default hotkey to toggle it on/off. Enter which keys should trigger round robin in the entry box (default keys 1 through = and SPACE and . (dot) and F10 are round robin keys, see the [FAQ entry](https://github.com/WowOpenBox/WowOpenBox/wiki/FAQ#what-special-key-names-can-i-use-in-the-round-robin-key-list) for complete list of special key names).  You can use the FocusMain hotkey (`Ctrl-Shift-W`) to always get focus back to the physical main window location (even if it's, say, Wow3 in it). You can use that before using movement keys to ensure you drive from main window even if you didn't complete a full RR rotation back to first window.
+1. If you used the optional key Broadcasting in the UI and can use `Ctrl-Shift-R` as the default hotkey to toggle it on/off. Enter which keys should be excluded from broadcasting in the entry box (default is all keys are broadcasted except for W S A D, see the [FAQ entry](https://github.com/WowOpenBox/WowOpenBox/wiki/FAQ#what-special-key-names-can-i-use-in-the-round-robin-key-list) for complete list of special key names).
 
 *: You can change all settings at any time and they will be saved, per window index when you click "Update" or "Save and Apply" in the Window Layout GUI.
 
@@ -39,7 +39,7 @@ Your settings are saved in `OpenMultiboxingSettings.tcl` in same folder as OpenM
 Make sure to also explore the File, Option etc menus (menu bar is at the top of the window) and read mouse over tooltips present in most UI elements of OMB.
 
 <p align="center">
-<img src="sshot5_2.png" alt="OMB 5.2 Screenshot">
+<img src="sshot7_0.png" alt="OMB 7.0 Screenshot">
 </p>
 
 Use the clipboard copy/paster in file menu (and check the Options menu to having always open) to **broadcast** text to all your windows.
@@ -54,7 +54,7 @@ There is a "Track Mouse" (and stop tracking) button (and hotkey, default `Ctrl-S
 
 You can toggle the focus follow mouse behavior using a hotkey (default `Ctrl-Shift-F`)
 
-You can turn on Left Mouse Click **broadcasting** using the checkbox or the hotkey (default `Ctrl-M`)
+You can turn on Left and Right Mouse Click **broadcasting** using the checkbox or the hotkey (default `Ctrl-M`). Pressing both mouse buttons (ie movement), or leaving any button held for more than half a second (ie camera changes) or having W key held will prevent click broadcasting.
 
 ## Other Games
 

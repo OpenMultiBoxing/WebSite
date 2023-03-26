@@ -31,13 +31,13 @@ And more... try and report your experience so we can add to this list!
 
 Questions, suggestions, come on our <a href="https://discord.gg/SMGvEeb"><img src="discord.svg" alt="discord" align="center" height="24pt"></a>
 
-This version, unlike the WowOpenBox one which doesn't have any broadcasting capability, does
+This version, unlike the WowOpenBox one which doesn't have any broadcasting capability, does:
+
+Since version 7, OMB can **broadcast** any keys, any text/string (like your login password or a /command) as well left or right mouse clicks.
 
 <p align="center">
-<img src="sshot5_2.png" alt="OMB 5.2 screenshot">
+<img src="sshot7_0.png" alt="OMB 7.0 screenshot">
 </p>
 
-Since version 7, OMB can **broadcast** simple keys, any text/string (like your login password) and left or right mouse clicks.
 
-(The screenshot and help still refer in places to `Round Robin`, which is still available for WowOpenBox but is recently replaced by `Broadcasting` in OpenMultiBoxing)
-
+(Some help text might still refer in places to `Round Robin`, which is still available for WowOpenBox (and OMB before 7.0) but is recently replaced by `Broadcasting` in OpenMultiBoxing)
