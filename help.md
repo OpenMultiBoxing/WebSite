@@ -72,7 +72,15 @@ Read the help text mouse over tooltip:
 
 You must click your game window and use the capture hotkey (`Ctrl-Shift-C` by default, changeable in settings) to use that mode; after which your game name should be recorded in the Game menu and you can stick to normal Auto Capture (Options Menu).
 
+## Multiple PCs support (network keys/mouse broadcasting)
 
+Select "Listen for other OMB connections" in the options menu on the main computer. Select "Connect to..." in the File menu on the other computers, type the main computer's name. On the main computer, accept the connection request from the other computers.
+
+From then on, mouse or keyboard broadcasting from main will be cloned and repeated on all the connected other PCs.
+
+There is also an option in the Options menu to carry mouse movement to other PCs.
+
+A special case on remote PCs is if you set number of windows to 1 or 0, keyboard events are sent to the system instead of a message queue for each window. Likewise if set to 0 windows, mouse events are scaled to the smallest monitor instead of the non existent window (equivalent of full screen capture of window 1 and non message mode setting)
 
 ## Need more help? Report a problem? Suggest a new feature?
 
