@@ -55,7 +55,7 @@ Recap of the main features:
 - Secure text (password) broadcasting option (can also broadcast slash commands, etc)
 - Many additional options to switch which window your keys are going to:
   - Swap windows with hotkeys.
-  - Focus follow mouse: turns on/off the Windows&trade; accessibility feature so you just hover a window to make it receive keys (note that mouse click broadcast only works if focus follow mouse is off, which )
+  - Focus follow mouse: turns on/off the Windows&trade; accessibility feature so you just hover a window to make it receive keys
   - Focus next/previous/specific windows with hotkeys.
 - Free, OpenSource and the Safest option available.
 - Online [help](https://OpenMultiBoxing.org/help), menus and tooltips on most UI element to help discovering features.
