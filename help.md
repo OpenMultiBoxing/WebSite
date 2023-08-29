@@ -32,6 +32,8 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
 1. If you want to use the optional key **broadcasting**, `Ctrl-Shift-R` is the default hotkey to toggle it on/off. Enter which keys should be excluded from broadcasting in the entry box (default is all keys are broadcasted except for W S A D, see the [FAQ entry](https://github.com/WowOpenBox/WowOpenBox/wiki/FAQ#what-special-key-names-can-i-use-in-the-round-robin-key-list) for complete list of special key names).
 
+1. You can remap keys, so if you press say `F` in the current main window, `T` is sent to others, by addding `F:T` in the key remapping section of the UI.
+
 *: You can change all settings at any time and they will be saved, per window index when you click "Update" or "Save and Apply" in the Window Layout GUI.
 
 Your settings are saved in `OpenMultiboxingSettings.tcl` in same folder as OpenMultiBoxing and can be edited pressing the "Edit Settings" button.
@@ -50,11 +52,11 @@ You can change the focus following mouse and auto raise/set foreground and the d
 
 Note that to change the delay you need to hit the Return key
 
-There is a "Track Mouse" (and stop tracking) button (and hotkey, default `Ctrl-Shift-M`) to track coordinates to help doing pixel perfect placement of your windows
+There is a "Track Mouse" (and stop tracking) button (and hotkey, default `Ctrl-Shift-Alt-M`, changed from before for consistency with broadcast as Ctrl-Shift-R) to track coordinates to help doing pixel perfect placement of your windows
 
 You can toggle the focus follow mouse behavior using a hotkey (default `Ctrl-Shift-F`)
 
-You can turn on Left and Right Mouse Click **broadcasting** using the checkbox or the hotkey (default `Ctrl-M`). Pressing both mouse buttons (ie movement), or leaving any button held for more than half a second (ie camera changes) or having W key held will prevent click broadcasting.
+You can turn on Left and Right Mouse Click **broadcasting** using the checkbox or the hotkey (default `Ctrl-Shift-M`). Pressing both mouse buttons (ie movement), or leaving any button held for more than half a second (ie camera changes) or having W key held will prevent click broadcasting.
 
 ## Other Games
 
