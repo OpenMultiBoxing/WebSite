@@ -86,9 +86,14 @@ Select "Listen for other OMB connections" in the options menu on the main comput
 
 From then on, mouse or keyboard broadcasting from main will be cloned and repeated on all the connected other PCs.
 
-There is also an option in the Options menu to carry mouse movement to other PCs.
+There is also an option in the Options menu ("Mouse broadcast: remote track movement") to carry mouse movement to other PCs.
 
-A special case on remote PCs is if you set number of windows to 1 or 0, keyboard events are sent to the system instead of a message queue for each window. Likewise if set to 0 windows, mouse events are scaled to the smallest monitor instead of the non existent window (equivalent of full screen capture of window 1 and non message mode setting)
+The bottom of the main window shows the network status: on the main computer, the number of connected remote PCs; on a remote PC, a "Pause input from ..." checkbox while connected to the main one (to temporarily ignore what it sends).
+
+How a remote PC applies what it receives depends on its captured windows:
+- No captured window: full screen mode, keys go to the system (focused window) and mouse moves/clicks are scaled to the primary monitor.
+- One window (not skipped): keys, mouse clicks and movement go to that window.
+- Several windows: keys and mouse clicks are repeated in each (not skipped) window; mouse movement is ignored as the mouse can't be in several places at once.
 
 ## Need more help? Report a problem? Suggest a new feature?
 
