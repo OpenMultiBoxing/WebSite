@@ -2,9 +2,11 @@
 
 This is an extension of the project started for World of Warcraft multiboxing ([WowOpenBox](https://WowOpenBox.org/)) but that applies to any kind of Windows game or app, including browser games.
 
-See the [installation](https://github.com/OpenMultiBoxing/OpenMultiBoxing#installation) and instructions and check the Game menu and "Capture foreground window" option.
+Download the [latest release](https://github.com/OpenMultiBoxing/OpenMultiBoxing/releases/latest) and see the [installation](https://github.com/OpenMultiBoxing/OpenMultiBoxing#installation) instructions.
 
-Use the Game menu to select your Game and/or check the Capture using foreground window:
+Use the Game menu to select your Game, or Game > "Add game window title..." to add your game's window title (the dialog shows which windows currently match; use `*` to match a changing part, e.g. a version number in the title).
+
+Or check the Capture using foreground window option:
 
 <p align="center">
 <img src="https://wowopenbox.org/sshot_game_menu.PNG" alt="Game Menu screenshot">
@@ -24,16 +26,14 @@ OpenMultiboxing is known to work with:
 - Path of Exile
 - Star Wars&trade;: The Old Republic&trade;
 - Mir4
-- Browser Games (RoundRobin OMB before 7.0 only)
+- Browser Games
 - And pretty much any Windows 10 or 11 application...
 
 And more... try and report your experience so we can add to this list!
 
 Questions, suggestions, come on our <a href="https://discord.gg/SMGvEeb"><img src="discord.svg" alt="discord" align="center" height="24pt"></a>
 
-This version, unlike the WowOpenBox one which doesn't have any broadcasting capability, does:
-
-Since version 7, OMB can **broadcast** any keys, any text/string (like your login password or a /command) as well left or right mouse clicks.
+Unlike WowOpenBox, which doesn't have any broadcasting capability, OMB since version 7 can **broadcast** any keys, any text/string (like your login password or a /command) as well left or right mouse clicks.
 
 It can also do broadcasting across multiple PC connections since version 7.2.
 
@@ -44,12 +44,16 @@ It can also do broadcasting across multiple PC connections since version 7.2.
 Recap of the main features:
 
 - Window Layout wizard and manual tweaking; get your game windows exactly how you want them to be to play.
+   - Save different layouts as profiles (File > New Profile...) and cycle through them with the Ctrl-Shift-L (next) and Ctrl-Shift-Alt-L (previous) hotkeys. Pick which profiles are in the rotation with Profile > "Profiles in rotation..." (all but Default by default).
+- Any game or app: pick it in the Game menu or add its window title with Game > "Add game window title..." (use `*` to match a changing part, e.g. a version number in the title).
 - Instant swapping of windows; with keyboard hotkeys for fast switching to the next or any specific window.
 - Left and right **mouse click broadcasting** option (press W or both buttons or hold them for more than half a second (delay configurable in settings) to avoid broadcasting)
    - For applications that do not support mouse events through PostMessage, uncheck "Mouse broadcast: message mode" in the Options menu.
 - **Key broadcasting** when turned on, with exclusions (e.g W A S D for movement from main window)
+   - Skip some windows (e.g. 4 and 5) from key and mouse broadcasting: check "Skip" and pick them in its dropdown, toggle with Ctrl-Shift-E.
    - Some applications/games do not accept PostMessage as a way to get input keys and you need to use OMB 5.2.7 with RoundRobin instead.
-- **Multi-PC** broadcasting: Select "Listen for other OMB connections" in the options menu on the main computer. Select "Connect to..." in the File menu on the other computers, type the main computer's name. On the main computer, accept the connection request from the other computers.
+- **Key remap** you can change which key code is sent to the other windows.
+- **Multi-PC** broadcasting: Select "Listen for other OMB connections" in the options menu on the main computer. Select "Connect to..." in the File menu on the other computers, type the main computer's name. On the main computer, accept the connection request from the other computers (default port is 4464, can be changed in settings).
    - A special case on remote PCs is if you set number of windows to 1 or 0, keyboard events are sent to the system instead of a message queue for each window. Likewise if set to 0 windows, mouse events are scaled to the smallest monitor instead of the non existent window (equivalent of full screen capture of window 1 and non message mode setting).
    - You also have the Option to send mouse movements also to remote PCs.
 - Secure text (password) broadcasting option (can also broadcast slash commands, etc)

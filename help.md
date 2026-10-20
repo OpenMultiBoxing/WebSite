@@ -34,9 +34,13 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
 1. You can remap keys, so if you press say `F` in the current main window, `T` is sent to others, by addding `F:T` in the key remapping section of the UI.
 
+1. You can **skip** some windows from key and mouse click broadcasting (e.g. keep OMB 4 and 5 out of it): check "Skip" and pick the windows in its dropdown. Once windows are picked, `Ctrl-Shift-E` toggles between broadcasting to all windows and skipping them. The skip follows the window, not its position, so a skipped window swapped into the main spot still gets nothing broadcast.
+
+1. **Profiles**: save different setups, for instance one per window layout (a big main window with smaller ones vs. a full screen main window), with File > "New Profile...", then change the Window Layout and "Save and Apply". Switch between them in the Profile menu or cycle through them with `Ctrl-Shift-L` (next) and `Ctrl-Shift-Alt-L` (previous). Profile > "Profiles in rotation..." picks which profiles are cycled through (all but Default by default).
+
 *: You can change all settings at any time and they will be saved, per window index when you click "Update" or "Save and Apply" in the Window Layout GUI.
 
-Your settings are saved in `OpenMultiboxingSettings.tcl` in same folder as OpenMultiBoxing and can be edited pressing the "Edit Settings" button.
+Your settings are saved in `OpenMultiBoxingSettings.tcl` (and `OpenMultiBoxingSettings<profile>.tcl` for profiles) in same folder as OpenMultiBoxing and can be edited pressing the "Edit Settings" button, then "Reload Settings". That opens the editor Windows uses to edit `.tcl` files (usually Notepad); hotkeys are the `hk,...` entries.
 
 Make sure to also explore the File, Option etc menus (menu bar is at the top of the window) and read mouse over tooltips present in most UI elements of OMB.
 
@@ -59,6 +63,8 @@ You can toggle the focus follow mouse behavior using a hotkey (default `Ctrl-Shi
 You can turn on Left and Right Mouse Click **broadcasting** using the checkbox or the hotkey (default `Ctrl-Shift-M`). Pressing both mouse buttons (ie movement), or leaving any button held for more than half a second (ie camera changes) or having W key held will prevent click broadcasting.
 
 ## Other Games
+
+Use Game > "Add game window title..." to add your game's window title; the dialog shows which windows currently match. Use `*` to match any text, e.g. `Game version:*` matches both `Game version:1.2.3` and `Game version:1.2.4`.
 
 Use the Game menu to select your Game and/or check the Capture using foreground window:
 
