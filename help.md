@@ -24,9 +24,9 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
 1. OMB since version 4.1 will automatically capture and place the windows in their respective position for you (you can turn that option off in the Option menu). Otherwise, press the "Capture" button or use its hotkey (default `Ctrl-Shift-C`). If you want to manage other games than World of Warcraft, see the ['Other Games' section below](#other-games)
 
-1. Press a hotkey to change which window gets the keyboard input: default key are `Ctrl-F1` for Wow 1, `Ctrl-F2` for Wow 2, etc.. or rotate between windows with hotkeys to focus the next window (defaults to `Ctrl-Shift-N`) and previous window (defaults to `Ctrl-Shift-P`). Hotkeys are changeable in settings.
+1. Press a hotkey to change which window gets the keyboard input: default key are `Ctrl-F1` for Wow 1, `Ctrl-F2` for Wow 2, etc.. or rotate between windows with hotkeys to focus the next window (defaults to `Ctrl-Shift-N`) and previous window (defaults to `Ctrl-Shift-P`). Hotkeys can be changed in File > "Hotkeys..." (see [below](#hotkeys)).
 
-1. Press a hotkey to bring window N to the main (1) window: default `Ctrl-Shift-F2` will swap 1 and 2,  `Ctrl-Shift-F3` for swapping 1 and 3, etc... changeable in settings. Or rotate the swap between all windows by repeatedly pressing `Ctrl-OEM3` (OEM3 is the `~` key on us keyboards) for forward swap or `Ctrl-Shift-OEM3` for backward swap.
+1. Press a hotkey to bring window N to the main (1) window: default `Ctrl-Shift-F2` will swap 1 and 2,  `Ctrl-Shift-F3` for swapping 1 and 3, etc... Or rotate the swap between all windows by repeatedly pressing `Ctrl-~` for forward swap or `Ctrl-Shift-~` for backward swap.
 
 1. You can toggle the overlay on/off at any time using the default hotkey `Ctrl-Shift-O` or the checkbox on the main window.
 
@@ -39,6 +39,16 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 1. **Profiles**: save different setups, for instance one per window layout (a big main window with smaller ones vs. a full screen main window), with File > "New Profile...", then change the Window Layout and "Save and Apply". Switch between them in the Profile menu or cycle through them with `Ctrl-Shift-L` (next) and `Ctrl-Shift-Alt-L` (previous). Profile > "Profiles in rotation..." picks which profiles are cycled through (all but Default by default).
 
 *: You can change all settings at any time and they will be saved, per window index when you click "Update" or "Save and Apply" in the Window Layout GUI.
+
+### Hotkeys
+
+File > "Hotkeys..." shows all the hotkeys. Click one and press the new key combination (`Esc` cancels), right click clears it. A key combination already used by another hotkey is cleared from that one. Changes apply and are saved right away; Undo (or `Ctrl-Z`) goes back, up to how the hotkeys were when the window opened. If another application already uses some hotkeys, OMB opens that window with them in red so you can pick different ones.
+
+<p align="center">
+<img src="sshotHotkeys.png" alt="OMB Hotkeys window">
+</p>
+
+### Settings
 
 Your settings are saved in `OpenMultiBoxingSettings.tcl` (and `OpenMultiBoxingSettings<profile>.tcl` for profiles) in same folder as OpenMultiBoxing and can be edited pressing the "Edit Settings" button, then "Reload Settings". That opens the editor Windows uses to edit `.tcl` files (usually Notepad); hotkeys are the `hk,...` entries.
 
