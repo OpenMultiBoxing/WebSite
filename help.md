@@ -64,6 +64,18 @@ Since v10.0.0 (needs the v10 or newer `.exe`, an older one running an updated OM
 - "Show mirrors" in the Mirrors window shows/hides them all. There are also "Show/hide mirrors" and "Mirrors edit mode toggle" hotkeys, unset by default (set them in File > "Hotkeys...").
 - Mirrors are saved with the profile.
 
+### Mirrored layout
+
+Since v10.1.0 (also needs the v10 or newer `.exe`), check "Mirrored" in the Window Layout window, then "Save and Apply": all the game windows are stacked at the main position, under the main window, and the other positions of the layout show live mirrors of them instead of the actual windows.
+
+- Swaps are instant: windows are never resized, the new main window just comes on top.
+- Click a mirror to make that window the main one; the mouse moves to the same spot in it.
+- If a position's aspect ratio differs from the main window's, its mirror keeps the proportions with black bars (use the "Same" or a fixed aspect ratio to avoid them).
+- Stay on top applies to the mirrors (the stacked windows never cover the main one).
+- Mouse click broadcasting works: clicks in the main window are repeated in the stacked windows. With "Mouse broadcast: track movement" (Options menu, on by default) the mouse movement is sent to them too, e.g. for menu highlights and tooltips in the mirrors, or targeting area spells.
+- Focus follows mouse only applies to the main window. When you need the actual windows (e.g. to click directly in a small one), keep another profile with the same layout but not mirrored and switch to it with the profile hotkeys.
+- The setting is saved with the profile.
+
 ### Settings
 
 Your settings are saved in `OpenMultiBoxingSettings.tcl` (and `OpenMultiBoxingSettings<profile>.tcl` for profiles) in same folder as OpenMultiBoxing and can be edited pressing the "Edit Settings" button, then "Reload Settings". That opens the editor Windows uses to edit `.tcl` files (usually Notepad); hotkeys are the `hk,...` entries.
@@ -112,7 +124,7 @@ Select "Listen for other OMB connections" in the options menu on the main comput
 
 From then on, mouse or keyboard broadcasting from main will be cloned and repeated on all the connected other PCs.
 
-There is also an option in the Options menu ("Mouse broadcast: remote track movement") to carry mouse movement to other PCs.
+There is also an option in the Options menu ("Mouse broadcast: track movement", on by default) to carry mouse movement to other PCs.
 
 The bottom of the main window shows the network status: on the main computer, the number of connected remote PCs; on a remote PC, a "Pause input from ..." checkbox while connected to the main one (to temporarily ignore what it sends).
 
