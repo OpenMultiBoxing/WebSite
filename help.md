@@ -22,7 +22,7 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
 1. Use the Bnet launcher to start your wow windows so you don't need to type your password, OMB will make them borderless automatically for you, but check in game resolution options to avoid pixelization (100% Render Scale, Correct window size). See also the `.bat` files included in the OMB zip file for a way to start multiple games windows at once (but you'll need to enter credentials individually or through the Secure copy paste broadcasting dialog).
 
-1. OMB since version 4.1 will automatically capture and place the windows in their respective position for you (you can turn that option off in the Option menu). Otherwise, press the "Capture" button or use its hotkey (default `Ctrl-Shift-C`). If you want to manage other games than World of Warcraft, see the ['Other Games' section below](#other-games)
+1. OMB since version 4.1 will automatically capture and place the windows in their respective position for you (you can turn that option off in the Option menu). Since v10.1.0 it fills the lowest free window number first: a game restarted after its window was closed (shown as "lost") gets its number back, and a window you "Forget" (right click in the list) moves to a lower free number if there is one, otherwise it stays out of OMB. Otherwise, press the "Capture" button or use its hotkey (default `Ctrl-Shift-C`). If you want to manage other games than World of Warcraft, see the ['Other Games' section below](#other-games)
 
 1. Press a hotkey to change which window gets the keyboard input: default key are `Ctrl-F1` for Wow 1, `Ctrl-F2` for Wow 2, etc.. or rotate between windows with hotkeys to focus the next window (defaults to `Ctrl-Shift-N`) and previous window (defaults to `Ctrl-Shift-P`). Hotkeys can be changed in File > "Hotkeys..." (see [below](#hotkeys)).
 
@@ -74,6 +74,7 @@ Since v10.1.0 (also needs the v10 or newer `.exe`), check "Mirrored" in the Wind
 - Stay on top applies to the mirrors (the stacked windows never cover the main one).
 - Mouse click broadcasting works: clicks in the main window are repeated in the stacked windows. With "Mouse broadcast: track movement" (Options menu, on by default) the mouse movement is sent to them too, e.g. for menu highlights and tooltips in the mirrors, or targeting area spells.
 - Focus follows mouse only applies to the main window. When you need the actual windows (e.g. to click directly in a small one), keep another profile with the same layout but not mirrored and switch to it with the profile hotkeys.
+- When you exit OMB, the mirrors go away so the windows stacked under main are put back in their (small) layout positions; the setting stays on and they get stacked again the next time OMB starts.
 - The setting is saved with the profile.
 
 ### Settings
