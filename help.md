@@ -58,9 +58,9 @@ Since v10.0.0 (needs the v10 or newer `.exe`, an older one running an updated OM
    - Drag a mirror to move it.
    - Drag one of its sides or corners to extend or shrink the copied area (the zoom stays the same).
    - Mouse wheel to zoom in/out, by steps (1/3, 1/2, 1, 1.5, 2, 3...).
-   - Right click for: "Select area again...", the Zoom submenu (shows the current zoom), "Stay on top", the source window, "Delete" and "Done editing".
+   - Right click for: "Select area again...", the Zoom submenu (shows the current zoom), "Stay on top", "Mouse goes to the source window", the source window, "Delete" and "Done editing".
 - A mirror shows the window it was taken from, wherever that window currently is in the layout (when that window goes back to a small position, the mirror shows the same area of it, just less sharp). Pick "Source: main window" in its right click menu to have it show whichever window is in the main position instead. The zoom shown in the menu is relative to the source window at its current size.
-- Outside of edit mode, mirrors let mouse clicks go to the window under them and never take the keyboard focus.
+- Outside of edit mode, a mirror acts like that area of its source window (v10.3.0+): mouse moves (hover highlights, tooltips), all clicks (left, right, middle, held or dragged) and the mouse wheel (e.g. minimap zoom) go to the same place in that window, even when it's covered or stacked under the main one. Uncheck "Mouse goes to the source window" in its right click menu to have mouse clicks go to the window under the mirror instead (that's how mirrors made with older versions start). Mirrors never take the keyboard focus.
 - "Show mirrors" in the Mirrors window shows/hides them all. There are also "Show/hide mirrors" and "Mirrors edit mode toggle" hotkeys, unset by default (set them in File > "Hotkeys...").
 - Mirrors are saved with the profile.
 
