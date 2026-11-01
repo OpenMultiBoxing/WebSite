@@ -2,7 +2,13 @@
 
 This is an extension of the project started for World of Warcraft multiboxing ([WowOpenBox](https://WowOpenBox.org/)) but that applies to any kind of Windows game or app, including browser games.
 
-Download the [latest release](https://github.com/OpenMultiBoxing/OpenMultiBoxing/releases/latest) and see the [installation](https://github.com/OpenMultiBoxing/OpenMultiBoxing#installation) instructions.
+Easiest: get it from the Microsoft Store, which installs and updates it for you (no Windows warning on first run):
+
+<a href="https://apps.microsoft.com/detail/9n0dz59nl2dw"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft"/></a>
+
+The Store version keeps its settings and profiles in `Documents\OpenMultiBoxing` (copy your `OpenMultiBoxingSettings*.tcl` files there to bring yours).
+
+Or download the [latest release](https://github.com/OpenMultiBoxing/OpenMultiBoxing/releases/latest) zip and see the [installation](https://github.com/OpenMultiBoxing/OpenMultiBoxing#installation) instructions.
 
 Use the Game menu to select your Game, or Game > "Add game window title..." to add your game's window title (the dialog shows which windows currently match; use `*` to match a changing part, e.g. a version number in the title).
 
