@@ -84,8 +84,12 @@ Your settings are saved in `OpenMultiBoxingSettings.tcl` (and `OpenMultiBoxingSe
 Make sure to also explore the File, Option etc menus (menu bar is at the top of the window) and read mouse over tooltips present in most UI elements of OMB.
 
 <p align="center">
-<img src="sshot7_0.png" alt="OMB 7.0 Screenshot">
+<a href="sshot11_0_light.png"><img src="sshot11_0_light.png" alt="OMB 11 Screenshot (light)"></a>
 </p>
+
+### Appearance (dark mode)
+
+Since v11.0.0, in the Option menu: "Appearance: same as Windows" (the default: follows Windows' app mode, Settings > Personalization > Colors > "Choose your app mode", also when you change it while OMB runs), "Appearance: light" or "Appearance: dark". Dark mode applies to all the OMB windows: title bars, menus, dialogs and message boxes ([screenshot](sshot11_0.png)). The choice is saved in your settings (`appearance`: `auto`, `light` or `dark`).
 
 Use the clipboard copy/paster in file menu (and check the Options menu to having always open) to **broadcast** text to all your windows.
 

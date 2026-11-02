@@ -8,7 +8,7 @@ Easiest: get it from the Microsoft Store, which installs and updates it for you 
 
 The Store version keeps its settings and profiles in `Documents\OpenMultiBoxing` (copy your `OpenMultiBoxingSettings*.tcl` files there to bring yours).
 
-Or download the [latest release](https://github.com/OpenMultiBoxing/OpenMultiBoxing/releases/latest) zip and see the [installation](https://github.com/OpenMultiBoxing/OpenMultiBoxing#installation) instructions.
+Or download the [latest release](https://github.com/OpenMultiBoxing/OpenMultiBoxing/releases/latest) zip and see the [installation](https://github.com/OpenMultiBoxing/OpenMultiBoxing#installation) instructions. Version 11 needs its new exe: coming from an older version, extract the new zip in the same folder to keep your settings (auto update alone isn't enough, the older exe tells you so and keeps running your current version).
 
 Use the Game menu to select your Game, or Game > "Add game window title..." to add your game's window title (the dialog shows which windows currently match; use `*` to match a changing part, e.g. a version number in the title).
 
@@ -44,11 +44,12 @@ Unlike WowOpenBox, which doesn't have any broadcasting capability, OMB since ver
 It can also do broadcasting across multiple PC connections since version 7.2.
 
 <p align="center">
-<img src="sshot7_0.png" alt="OMB 7.0 screenshot">
+<a href="sshot11_0.png"><img src="sshot11_0.png" alt="OMB 11 screenshot (dark mode)"></a>
 </p>
 
 Recap of the main features:
 
+- **Dark mode** (v11.0.0+): Option menu > Appearance: same as Windows (the default, follows it when you change it), light or dark. See the [help](https://OpenMultiBoxing.org/help#appearance-dark-mode).
 - Window Layout wizard and manual tweaking; get your game windows exactly how you want them to be to play.
    - Save different layouts as profiles (File > New Profile...) and cycle through them with the Ctrl-Shift-L (next) and Ctrl-Shift-Alt-L (previous) hotkeys. Pick which profiles are in the rotation with Profile > "Profiles in rotation..." (all but Default by default).
 - Any game or app: pick it in the Game menu or add its window title with Game > "Add game window title..." (use `*` to match a changing part, e.g. a version number in the title).
