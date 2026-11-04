@@ -52,7 +52,7 @@ File > "Hotkeys..." shows all the hotkeys. Click one and press the new key combi
 
 Since v10.0.0 (needs the v10 or newer `.exe`, an older one running an updated OMB shows a message with a link to download it), mirrors are live copies of an area of a game window, shown anywhere on screen at any zoom: e.g. a bigger minimap, a target frame or the portraits of the small windows next to the main one. They are drawn by Windows (no slowdown) and stay live even when the window they copy is covered by another one.
 
-- File > "Mirrors..." opens the Mirrors window. While it is open you are in **edit mode**: mirrors have a colored border and can be changed.
+- The "Mirrors" button of the main window (or File > "Mirrors...") opens the Mirrors window. While it is open you are in **edit mode**: mirrors have a colored border and can be changed.
 - "Add a mirror": click the game window to copy from (in a stacked layout, bring the one you want to the front first), then drag a rectangle around the area. The new mirror shows next to it at its actual size (1:1).
 - In edit mode:
    - Drag a mirror to move it.
@@ -80,7 +80,7 @@ Since v10.1.0 (also needs the v10 or newer `.exe`), check "Mirrored" in the Wind
 
 ### Settings
 
-Your settings are saved in `OpenMultiBoxingSettings.tcl` (and `OpenMultiBoxingSettings<profile>.tcl` for profiles) in same folder as OpenMultiBoxing and can be edited pressing the "Edit Settings" button, then "Reload Settings". That opens the editor Windows uses to edit `.tcl` files (usually Notepad); hotkeys are the `hk,...` entries.
+Your settings are saved in `OpenMultiBoxingSettings.tcl` (and `OpenMultiBoxingSettings<profile>.tcl` for profiles) in the same folder as OpenMultiBoxing (`Documents\OpenMultiBoxing` for the Microsoft Store version); File > "Open settings folder" opens it. Almost everything can be changed in OMB's windows and menus, but you can also edit them with File > "Edit raw settings...": that opens the editor Windows uses to edit `.tcl` files (usually Notepad) and a small window with a "Reload settings" button to click once you saved your changes in the editor (also in the File menu). Hotkeys are the `hk,...` entries.
 
 Make sure to also explore the File, Option etc menus (menu bar is at the top of the window) and read mouse over tooltips present in most UI elements of OMB.
 
