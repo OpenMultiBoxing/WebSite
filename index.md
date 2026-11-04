@@ -6,7 +6,7 @@ Easiest: get it from the Microsoft Store, which installs and updates it for you 
 
 <a href="https://apps.microsoft.com/detail/9n0dz59nl2dw"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft"/></a>
 
-The Store version keeps its settings and profiles in `Documents\OpenMultiBoxing` (copy your `OpenMultiBoxingSettings*.tcl` files there to bring yours).
+The Store version keeps its settings and profiles in `Documents\OpenMultiBoxing` (copy your `OpenMultiBoxingSettings*.tcl` files there to bring yours). It also puts there the `launchwow*.bat` files, to start several WoW windows at once without Battle.net, and [LaunchWoW.txt](https://github.com/OpenMultiBoxing/OpenMultiBoxing/blob/main/LaunchWoW.txt) which explains them.
 
 Or download the [latest release](https://github.com/OpenMultiBoxing/OpenMultiBoxing/releases/latest) zip and see the [installation](https://github.com/OpenMultiBoxing/OpenMultiBoxing#installation) instructions. Version 11 needs its new exe: coming from an older version, extract the new zip in the same folder to keep your settings (auto update alone isn't enough, the older exe tells you so and keeps running your current version).
 
