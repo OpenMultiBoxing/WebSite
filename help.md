@@ -28,7 +28,9 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
 1. Press a hotkey to bring window N to the main (1) window: default `Ctrl-Shift-F2` will swap 1 and 2,  `Ctrl-Shift-F3` for swapping 1 and 3, etc... Or rotate the swap between all windows by repeatedly pressing `Ctrl-~` for forward swap or `Ctrl-Shift-~` for backward swap.
 
-1. You can toggle the overlay on/off at any time using the default hotkey `Ctrl-Shift-O` or the checkbox on the main window.
+1. You can toggle the overlay on/off at any time using the default hotkey `Ctrl-Shift-O` or the checkbox on the main window. The "Overlay config" button next to it changes how it looks and:
+    + "Clickable overlay": click a window's number to make it the main one (window 1's number swaps to the next window, its broadcast indicator turns broadcasting on/off).
+    + "Click to swap all area on windows 2+" (with Clickable overlay on): the whole area of windows 2+ becomes clickable (darkened by the overlay) and a click anywhere in one swaps it to the main window, but you can't click inside those windows anymore. The [Mirrored layout](#mirrored-layout) is now the better way to click to swap: clicking a mirror swaps instantly, without covering anything.
 
 1. If you want to use the optional key **broadcasting**, `Ctrl-Shift-R` is the default hotkey to toggle it on/off. Enter which keys should be excluded from broadcasting in the entry box (default is all keys are broadcasted except for W S A D, see the [FAQ entry](https://github.com/WowOpenBox/WowOpenBox/wiki/FAQ#what-special-key-names-can-i-use-in-the-round-robin-key-list) for complete list of special key names).
 
