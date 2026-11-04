@@ -18,6 +18,8 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
     1. Manually select the position you want it to be at(*)
 
+    1. While the Window Layout is open, the main window follows it: click (or move, resize) a window in the layout and its number, size, position and stay on top show in the main window; type an exact size or position there and press `Enter` to see it in the layout. Nothing changes for real until "Save and Apply" in the layout (or "Update" in the main window for that one window); closing the layout without saving discards the changes.
+
     1. Decide if that window should stay on top of others. you can use a hotkey (default `Ctrl-Shift-T`) to toggle that setting on the fly.(*)
 
 1. Use the Bnet launcher to start your wow windows so you don't need to type your password, OMB will make them borderless automatically for you, but check in game resolution options to avoid pixelization (100% Render Scale, Correct window size). See also the `launchwow*.bat` files in the OMB zip file (the Microsoft Store version puts them in your `Documents\OpenMultiBoxing` folder): they start several WoW windows at once, without Battle.net, so you log in each window. For the password, use File > "Clipboard copy/paster...": type it once (only `*` show) and click Broadcast to type it in all the windows, or Copy and `Ctrl-V` it in each. Read [LaunchWoW.txt](https://github.com/OpenMultiBoxing/OpenMultiBoxing/blob/main/LaunchWoW.txt) first: each window's WoW settings start as a copy of your current ones, so set up WoW (Windowed mode, graphics...) before the first use.
