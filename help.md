@@ -36,7 +36,7 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
 1. You can **skip** some windows from key and mouse click broadcasting (e.g. keep OMB 4 and 5 out of it): check "Skip" and pick the windows in its dropdown. Once windows are picked, `Ctrl-Shift-E` toggles between broadcasting to all windows and skipping them. The skip follows the window, not its position, so a skipped window swapped into the main spot still gets nothing broadcast.
 
-1. **Profiles**: save different setups, for instance one per window layout (a big main window with smaller ones vs. a full screen main window), with File > "New Profile...", then change the Window Layout and "Save and Apply". Switch between them in the Profile menu or cycle through them with `Ctrl-Shift-L` (next) and `Ctrl-Shift-Alt-L` (previous). Profile > "Profiles in rotation..." picks which profiles are cycled through (all but Default by default).
+1. **Profiles**: save different setups, for instance one per window layout (a big main window with smaller ones vs. a full screen main window), with File > "New Profile...", then change the Window Layout and "Save and Apply". Switch between them in the Profile menu or cycle through them with `Ctrl-Shift-L` (next) and `Ctrl-Shift-Alt-L` (previous). Profile > "Profiles in rotation..." picks which profiles are cycled through (all but Default by default). Default is a profile too, with its own settings: saving another profile doesn't change it (before v11.1.2, Default became a copy of the last saved profile).
 
 *: You can change all settings at any time and they will be saved, per window index when you click "Update" or "Save and Apply" in the Window Layout GUI.
 
