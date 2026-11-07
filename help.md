@@ -100,7 +100,7 @@ Use the clipboard copy/paster in file menu (and check the Options menu to having
 
 ## Mouse control
 
-The "Focus follows mouse" checkbox turns on the Windows "Activate on hover" accessibility feature (Settings > Accessibility > Mouse) and sets its delay to instant (0 ms, while the Windows slider's minimum of 1 is 100 ms and its default of 5 is 500 ms). You can change that delay with `mouseDelay` (in ms) in your settings (see above). On exit, the previous Windows delay is restored and the feature turned off (unless you uncheck "Turn off focus follow mouse on exit" in the Option menu).
+The "Focus follows mouse" checkbox turns on the Windows "Activate on hover" accessibility feature (Settings > Accessibility > Mouse) and sets its delay to instant (0 ms, while the Windows slider's minimum of 1 is 100 ms and its default of 5 is 500 ms). You can change that delay with `mouseDelay` (in ms) in your settings (see above). If you already use "Activate on hover" on your own, OMB leaves it alone until you check the box. Your own setting (on or off, and its delay) comes back when you uncheck the box, while paused (mouse outside the game windows) and on exit. To keep it on after exiting (e.g. to play without OMB running), uncheck "Restore focus follow mouse on exit" in the Option menu: the next time OMB starts, the checkbox is on, and unchecking it (or exiting with that option checked again) turns it off.
 
 Whether hovering also brings the window to the front is the "Mouse auto foreground window" option in the Option menu (same as Windows' "Move window to top when activating for mouse hover").
 
