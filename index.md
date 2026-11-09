@@ -59,6 +59,7 @@ Recap of the main features:
    - For applications that do not support mouse events through PostMessage, uncheck "Mouse broadcast: message mode" in the Options menu.
 - **Key broadcasting** when turned on, with exclusions (e.g W A S D for movement from main window)
    - Skip some windows (e.g. 4 and 5) from key and mouse broadcasting: check "Skip" and pick them in its dropdown, toggle with Ctrl-Shift-E.
+   - **Rotate** (v11.3.0+): hold Right Shift and press a key several times to send it to one window after another (a.k.a. round robin), e.g. to take turns with a stun. Also Rotate hotkeys and a Rotate bar (File > "Hotkeys..."). See the [help](https://OpenMultiBoxing.org/help#rotate).
    - Some applications/games do not accept PostMessage as a way to get input keys and you need to use OMB 5.2.7 with RoundRobin instead.
 - **Key remap** you can change which key code is sent to the other windows.
 - **Mirrors** (v10.0.0+): live, zoomable copies of an area of any game window (e.g. a bigger minimap, or the portraits of the small windows), anywhere on screen. File > "Mirrors...": "Add a mirror", click a window, drag the area; then drag to move, drag the sides to extend/shrink the area, mouse wheel to zoom, right click for options. Mirrors stay on their window as it gets swapped (or follow whichever window is main) and, outside of edit mode, act like that area of the window (v10.3.0+): mouse moves, all clicks and the mouse wheel go to the same place in it (right click option "Mouse goes to the source window", off for mirrors made with older versions: then mouse clicks go through the mirror). Mirrors can be see-through (right click > Opacity) and can focus their source window when clicked, or entered with focus follows mouse (right click option, off by default) (v11.1.0+). See the [help](https://OpenMultiBoxing.org/help#mirrors).
@@ -75,4 +76,4 @@ Recap of the main features:
 - Free, OpenSource and the Safest option available.
 - Online [help](https://OpenMultiBoxing.org/help), menus and tooltips on most UI element to help discovering features.
 
-Note: key broadcasting replaces earlier round robin in OpenMultiBoxing (and WowOpenBox has no possibility of broadcasting, per Blizzard's multiboxing changes).
+Note: key broadcasting replaces the old round robin mode of OpenMultiBoxing (v6 and older; not the same as the new Rotate) (and WowOpenBox has no possibility of broadcasting, per Blizzard's multiboxing changes).

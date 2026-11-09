@@ -40,6 +40,8 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
 1. You can **skip** some windows from key and mouse click broadcasting (e.g. keep OMB 4 and 5 out of it): check "Skip" and pick the windows in its dropdown. Once windows are picked, `Ctrl-Shift-E` toggles between broadcasting to all windows and skipping them. The skip follows the window, not its position, so a skipped window swapped into the main spot still gets nothing broadcast.
 
+1. **Rotate** a key between the windows (a.k.a. round robin), e.g. to take turns with a stun or a fear: hold Right Shift and press that key several times. See [Rotate](#rotate) below for the Rotate hotkeys and the Rotate bar.
+
 1. **Profiles**: save different setups, for instance one per window layout (a big main window with smaller ones vs. a full screen main window), with File > "New Profile...", then change the Window Layout and "Save and Apply". Switch between them in the Profile menu or cycle through them with `Ctrl-Shift-L` (next) and `Ctrl-Shift-Alt-L` (previous). Profile > "Profiles in rotation..." picks which profiles are cycled through (all but Default by default). Default is a profile too, with its own settings: saving another profile doesn't change it (before v11.1.2, Default became a copy of the last saved profile).
 
 *: You can change all settings at any time and they will be saved, per window index when you click "Update" or "Save and Apply" in the Window Layout GUI.
@@ -51,6 +53,15 @@ File > "Hotkeys..." shows all the hotkeys. Click one and press the new key combi
 <p align="center">
 <img src="sshotHotkeys.png" alt="OMB Hotkeys window">
 </p>
+
+### Rotate
+
+Since v11.3.0, OMB can send a key to one window after another (a.k.a. round robin), e.g. so each of your characters takes its turn with a stun (War Stomp...) or a fear. Each key has its own turn. Swapping windows, Reset all or restarting OMB starts the turns again. Windows that are skipped (see "Skip" above) are left out.
+
+- **Right Shift** (while broadcasting is on): hold Right Shift and press a key several times. It can be any key, even one that isn't broadcast, like A. Each press goes to the current window as Right Shift + that key, which WoW treats as just the key. From the second press on, it also goes to one other window: the next window, then the one after, and so on. When it's the current window's turn again, that press only goes to it (with 5 windows: presses 1, 6, 11...). To use another key than Right Shift, click the "Rotate Modifier:" button in the main window and press the Shift, Ctrl or Alt key you want. Right click that button to turn it off.
+- **Rotate hotkeys**: File > "Hotkeys..." has a Rotate section with 5 rows. In each row, pick a hotkey, type the key it sends (e.g. `9`) and, if you like, a name (e.g. `Stomp`). Each press of the hotkey sends that key to only one window, taking turns: first the current window, then the next one, and so on. These work even when broadcasting is off.
+- **Rotate bar**: check "Show the Rotate bar" in the Hotkeys window, or File > "Rotate bar". It is a small bar that stays on top, with a button for each Rotate row. Each button shows the name, the key and the window whose turn is next. Click a button to send its key to that window. Right click a button to start its turns again. The ⚙ button opens the Hotkeys window.
+- **Any key** (in the Rotate bar): click "⟳ Any key". Until you move the mouse out of it, every key you type, with its Shift, Ctrl or Alt, goes to only one window, taking turns for each key. When the mouse leaves it, the keyboard goes back to the window you were in.
 
 ### Mirrors
 
