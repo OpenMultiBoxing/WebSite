@@ -76,4 +76,4 @@ Recap of the main features:
 - Free, OpenSource and the Safest option available.
 - Online [help](https://OpenMultiBoxing.org/help), menus and tooltips on most UI element to help discovering features.
 
-Note: key broadcasting replaces earlier round robin in OpenMultiBoxing (and WowOpenBox has no possibility of broadcasting, per Blizzard's multiboxing changes).
+Note: key broadcasting replaces the old round robin mode of OpenMultiBoxing (v6 and older; not the same as the new Rotate) (and WowOpenBox has no possibility of broadcasting, per Blizzard's multiboxing changes).
