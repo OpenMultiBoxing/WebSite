@@ -46,6 +46,23 @@ _Note that this page isn't fully updated yet and is still more or less the origi
 
 *: You can change all settings at any time and they will be saved, per window index when you click "Update" or "Save and Apply" in the Window Layout GUI.
 
+### Window Layout options
+
+With "Auto" checked, the layout is redone on any change; nothing changes for real until "Save and Apply".
+
+- The slider sets the number of areas of the layout. Without "Auto", lowering it hides the areas past that number, and the mirrors of those windows in the preview; raising it shows them back.
+- "Same size for all": all the windows the same size. Otherwise one big main window with smaller ones around it, which also use the columns or rows a fixed aspect ratio leaves free (v11.4.0+): e.g. at 4:3 on a 16:9 monitor, 9 windows fit at the sizes 6 had.
+- "One row/col for small windows": all the small windows in one row (or column).
+- "Main at bottom": the main window at the bottom of the screen instead of the top.
+- **"2 big" (windows)** (v11.4.0+): two big windows side by side, e.g. tank and healer, the others smaller below them (all in one row with "One row/col for small windows"). On 2 monitors, the second big window is the same size as the main one, on the other monitor with the small ones around it. On 3 or more, the 2 big ones are alone on the 2 smallest monitors.
+- **Fixed spots** (v11.5.0+): each window keeps its own spot and the main window gets an extra area, so checking it adds an area (the layout then shows Main, OMB 1, OMB 2...). A swap sends the previous main window back to its spot, instead of the 2 windows exchanging their places. Best with the [Mirrored layout](#mirrored-layout): each spot always shows its own window, dimmed while it's the main one. Not with "All Stacked".
+- "All Stacked" and "Mirrored": see [Mirrored layout](#mirrored-layout).
+
+<p align="center">
+<a href="sshot_fixed_spots.jpg"><img src="sshot_fixed_spots.jpg" alt="OMB Fixed spots with the Mirrored layout" width="100%"></a><br>
+7 windows with Fixed spots and Mirrored: window 5 is the main one, its own spot (right) shows it dimmed.
+</p>
+
 ### Hotkeys
 
 File > "Hotkeys..." shows all the hotkeys. Click one and press the new key combination (`Esc` cancels), right click clears it. A key combination already used by another hotkey is cleared from that one. Changes apply and are saved right away; Undo (or `Ctrl-Z`) goes back, up to how the hotkeys were when the window opened. If another application already uses some hotkeys, OMB opens that window with them in red so you can pick different ones.
